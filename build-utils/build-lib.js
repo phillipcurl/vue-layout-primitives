@@ -3,6 +3,7 @@ const fs = require('fs-extra');
 const path = require('path');
 const { execSync } = require('child_process');
 const libConfig = require('../lib');
+const lernaConfig = require('../lerna');
 const _ = require('lodash');
 const parseComponent = require('@vue/component-compiler-utils').parse;
 
@@ -209,7 +210,7 @@ function generatePackageJson(package) {
 			name: package.name,
 			description: package.description,
 			author: libConfig.author,
-			version: libConfig.version,
+			version: lernaConfig.version,
 			license: 'MIT',
 			homepage: `https://www.npmjs.com/package/${package.name}`,
 			repository: {

@@ -1,6 +1,5 @@
 {
 	"name": "vue-layout-primitives",
-	"version": "0.0.4",
 	"description": "A collection of layout primitives for building Vue apps.",
 	"author": {
 		"name": "Phillip Curl",
