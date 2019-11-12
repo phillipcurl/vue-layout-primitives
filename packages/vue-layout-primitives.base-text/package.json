@@ -1,0 +1,25 @@
+{
+  "name": "vue-layout-primitives.base-text",
+  "description": "The base text component",
+  "author": {
+    "name": "Phillip Curl",
+    "email": "phillipcurl@gmail.com",
+    "github": "phillipcurl"
+  },
+  "license": "MIT",
+  "homepage": "https://www.npmjs.com/package/vue-layout-primitives.base-text",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phillipcurl/vue-layout-primitives.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phillipcurl/vue-layout-primitives/issues"
+  },
+  "module": "index.js",
+  "main": "cjs/index.js",
+  "unpkg": "umd/index.min.js",
+  "jsdelivr": "umd/index.min.js",
+  "peerDependencies": {
+    "vue": ">=2.0.0"
+  }
+}

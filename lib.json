@@ -1,0 +1,12 @@
+{
+	"name": "vue-layout-primitives",
+	"description": "A collection of layout primitives for building Vue apps.",
+	"author": {
+		"name": "Phillip Curl",
+		"email": "phillipcurl@gmail.com",
+		"github": "phillipcurl"
+	},
+	"peerDependencies": {
+		"vue": ">=2.0.0"
+	}
+}
