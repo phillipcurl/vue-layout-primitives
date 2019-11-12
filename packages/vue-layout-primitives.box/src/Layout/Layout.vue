@@ -89,13 +89,13 @@ footer {
 
 <meta>
 {
-  "description": "The base Application component"
+  "description": "The base Layout component that wraps other layouts and provides base styling options."
 }
 </meta>
 
 <example>
   <!-- No props or content are necessary. -->
-  <Application id="app">
+  <Layout id="app">
 		Your application content goes here.
-	</Application>
+	</Layout>
 </example>

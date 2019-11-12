@@ -66,11 +66,13 @@ export default {
 
 <meta>
 {
-  "description": "A component that says \"HelloB\" with green text."
+  "description": "A component that aligns its children inline."
 }
 </meta>
 
 <example>
   <!-- No props or content are necessary. -->
-  <hello-b></hello-b>
+  <Inline>
+		...
+	</Inline>
 </example>

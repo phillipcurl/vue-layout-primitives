@@ -1,6 +1,6 @@
 # vue-layout-primitives.v-stack
 
-> A component that says "HelloB" with green text.
+> A component that aligns its children vertically with a specified gap between each successive child.
 
 ## Installation
 
@@ -52,5 +52,7 @@ components: { VStack }
 
 ```html
 <!-- No props or content are necessary. -->
-<hello-b></hello-b>
+  <VStack>
+		...
+	</VStack>
 ```

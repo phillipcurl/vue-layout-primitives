@@ -28,7 +28,7 @@ export default {
 
 <meta>
 {
-  "description": "The base text component"
+  "description": "The base text component used to render standard body copy."
 }
 </meta>
 

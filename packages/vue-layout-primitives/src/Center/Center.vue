@@ -33,11 +33,13 @@ export default {
 
 <meta>
 {
-  "description": "A component that says \"HelloB\" with green text."
+  "description": "A centered component with a set max-width."
 }
 </meta>
 
 <example>
   <!-- No props or content are necessary. -->
-  <hello-b></hello-b>
+  <Center>
+		...
+	</Center>
 </example>

@@ -72,11 +72,13 @@ export default {
 
 <meta>
 {
-  "description": "A component that says \"HelloB\" with green text."
+  "description": "A grid component that uses CSS grid to create cells of min-width or a set number of columns."
 }
 </meta>
 
 <example>
   <!-- No props or content are necessary. -->
-  <hello-b></hello-b>
+  <Grid>
+		...
+	</Grid>
 </example>

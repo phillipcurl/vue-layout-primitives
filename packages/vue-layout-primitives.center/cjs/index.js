@@ -87,6 +87,21 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "2179":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("2350")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".center[data-v-5759451f]{-webkit-box-sizing:content-box;box-sizing:content-box;max-width:var(--measure);margin-right:auto;margin-left:auto}", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "2350":
 /***/ (function(module, exports) {
 
@@ -170,18 +185,14 @@ function toComment(sourceMap) {
 
 /***/ }),
 
-/***/ "3f19":
-/***/ (function(module, exports, __webpack_require__) {
+/***/ "26b6":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("e43f");
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var add = __webpack_require__("499e").default
-var update = add("2e049a9a", content, true, {"sourceMap":false,"shadowMode":false});
+"use strict";
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_build_utils_global_vue_loader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Center_vue_vue_type_style_index_0_id_5759451f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("8245");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_build_utils_global_vue_loader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Center_vue_vue_type_style_index_0_id_5759451f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_build_utils_global_vue_loader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Center_vue_vue_type_style_index_0_id_5759451f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_build_utils_global_vue_loader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Center_vue_vue_type_style_index_0_id_5759451f_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -448,14 +459,18 @@ function applyToTag (styleElement, obj) {
 
 /***/ }),
 
-/***/ "772b":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "8245":
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_build_utils_global_vue_loader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Center_vue_vue_type_style_index_0_id_2638eafa_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("3f19");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_build_utils_global_vue_loader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Center_vue_vue_type_style_index_0_id_2638eafa_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_build_utils_global_vue_loader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Center_vue_vue_type_style_index_0_id_2638eafa_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_build_utils_global_vue_loader_js_node_modules_vue_loader_lib_index_js_vue_loader_options_Center_vue_vue_type_style_index_0_id_2638eafa_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("2179");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__("499e").default
+var update = add("96b27714", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
@@ -463,21 +478,6 @@ function applyToTag (styleElement, obj) {
 /***/ (function(module, exports) {
 
 // empty (null-loader)
-
-/***/ }),
-
-/***/ "e43f":
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__("2350")(false);
-// imports
-
-
-// module
-exports.push([module.i, ".center[data-v-2638eafa]{-webkit-box-sizing:content-box;box-sizing:content-box;max-width:var(--measure);margin-right:auto;margin-left:auto}", ""]);
-
-// exports
-
 
 /***/ }),
 
@@ -529,8 +529,8 @@ if (typeof window !== 'undefined' && window.Vue) {
 });
 // CONCATENATED MODULE: ./src/Center/Center.vue?vue&type=script&lang=js&
  /* harmony default export */ var Center_Centervue_type_script_lang_js_ = (Centervue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/Center/Center.vue?vue&type=style&index=0&id=2638eafa&scoped=true&lang=css&
-var Centervue_type_style_index_0_id_2638eafa_scoped_true_lang_css_ = __webpack_require__("772b");
+// EXTERNAL MODULE: ./src/Center/Center.vue?vue&type=style&index=0&id=5759451f&scoped=true&lang=css&
+var Centervue_type_style_index_0_id_5759451f_scoped_true_lang_css_ = __webpack_require__("26b6");
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
@@ -650,7 +650,7 @@ var Center_component = normalizeComponent(
   staticRenderFns,
   false,
   null,
-  "2638eafa",
+  "5759451f",
   null
   
 )

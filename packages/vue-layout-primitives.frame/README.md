@@ -1,6 +1,6 @@
 # vue-layout-primitives.frame
 
-> A component that says "HelloB" with green text.
+> A component renders its content in a fixed aspect ratio container.
 
 ## Installation
 
@@ -52,5 +52,7 @@ components: { Frame }
 
 ```html
 <!-- No props or content are necessary. -->
-<hello-b></hello-b>
+  <Frame>
+		...
+	</Frame>
 ```

@@ -1,12 +1,12 @@
 {
   "name": "vue-layout-primitives.heading",
-  "description": "A component that says \"HelloB\" with green text.",
+  "description": "Renders a basic heading with the optional ability to clip the height so that the heading sits at the top of its container.",
   "author": {
     "name": "Phillip Curl",
     "email": "phillipcurl@gmail.com",
     "github": "phillipcurl"
   },
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
   "homepage": "https://www.npmjs.com/package/vue-layout-primitives.heading",
   "repository": {

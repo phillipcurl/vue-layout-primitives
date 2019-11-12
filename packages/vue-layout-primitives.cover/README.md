@@ -1,6 +1,6 @@
 # vue-layout-primitives.cover
 
-> A component that says "HelloB" with green text.
+> A component that centers content in the middle of a height-specified element with optional header and footer.
 
 ## Installation
 
@@ -52,5 +52,7 @@ components: { Cover }
 
 ```html
 <!-- No props or content are necessary. -->
-<hello-b></hello-b>
+  <Cover>
+		...
+	</Cover>
 ```

@@ -1,6 +1,6 @@
 # vue-layout-primitives.h-stack
 
-> A component that says "HelloB" with green text.
+> A component renders its children in a row and collapses to a vertical stack at a specified width.
 
 ## Installation
 
@@ -52,5 +52,7 @@ components: { HStack }
 
 ```html
 <!-- No props or content are necessary. -->
-<hello-b></hello-b>
+  <HStack>
+		...
+	</HStack>
 ```

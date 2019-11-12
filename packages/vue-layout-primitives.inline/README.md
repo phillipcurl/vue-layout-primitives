@@ -1,6 +1,6 @@
 # vue-layout-primitives.inline
 
-> A component that says "HelloB" with green text.
+> A component that aligns its children inline.
 
 ## Installation
 
@@ -52,5 +52,7 @@ components: { Inline }
 
 ```html
 <!-- No props or content are necessary. -->
-<hello-b></hello-b>
+  <Inline>
+		...
+	</Inline>
 ```

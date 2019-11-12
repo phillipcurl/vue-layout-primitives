@@ -1,12 +1,12 @@
 {
   "name": "vue-layout-primitives.box",
-  "description": "The base Box component",
+  "description": "The base Box component that can be used in a variety of ways to ensure consistent spacing.",
   "author": {
     "name": "Phillip Curl",
     "email": "phillipcurl@gmail.com",
     "github": "phillipcurl"
   },
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
   "homepage": "https://www.npmjs.com/package/vue-layout-primitives.box",
   "repository": {

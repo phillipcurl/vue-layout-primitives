@@ -1,6 +1,6 @@
 # vue-layout-primitives.grid
 
-> A component that says "HelloB" with green text.
+> A grid component that uses CSS grid to create cells of min-width or a set number of columns.
 
 ## Installation
 
@@ -52,5 +52,7 @@ components: { Grid }
 
 ```html
 <!-- No props or content are necessary. -->
-<hello-b></hello-b>
+  <Grid>
+		...
+	</Grid>
 ```

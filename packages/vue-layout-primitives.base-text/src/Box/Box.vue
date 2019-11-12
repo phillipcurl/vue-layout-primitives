@@ -61,7 +61,7 @@ export default {
 
 <meta>
 {
-  "description": "The base Box component"
+  "description": "The base Box component that can be used in a variety of ways to ensure consistent spacing."
 }
 </meta>
 

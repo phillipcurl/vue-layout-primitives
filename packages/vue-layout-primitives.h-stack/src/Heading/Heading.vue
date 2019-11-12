@@ -42,11 +42,11 @@ export default {
 
 <meta>
 {
-  "description": "A component that says \"HelloB\" with green text."
+  "description": "Renders a basic heading with the optional ability to clip the height so that the heading sits at the top of its container."
 }
 </meta>
 
 <example>
   <!-- No props or content are necessary. -->
-  <hello-b></hello-b>
+  <Heading level="2">...</Heading>
 </example>

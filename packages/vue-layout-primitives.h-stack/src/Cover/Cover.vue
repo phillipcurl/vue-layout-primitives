@@ -1,8 +1,5 @@
 <template>
-	<div
-class="cover"
-:style="`--cover-gap: var(--s${gap}); --cover-height: ${height};`"
->
+	<div class="cover" :style="`--cover-gap: var(--s${gap}); --cover-height: ${height};`">
 		<slot name="header" />
 		<div class="centered">
 			<slot />
@@ -55,11 +52,13 @@ export default {
 
 <meta>
 {
-  "description": "A component that says \"HelloB\" with green text."
+  "description": "A component that centers content in the middle of a height-specified element with optional header and footer."
 }
 </meta>
 
 <example>
   <!-- No props or content are necessary. -->
-  <hello-b></hello-b>
+  <Cover>
+		...
+	</Cover>
 </example>

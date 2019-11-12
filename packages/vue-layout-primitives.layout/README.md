@@ -1,6 +1,6 @@
 # vue-layout-primitives.layout
 
-> The base Application component
+> The base Layout component that wraps other layouts and provides base styling options.
 
 ## Installation
 
@@ -52,7 +52,7 @@ components: { Layout }
 
 ```html
 <!-- No props or content are necessary. -->
-  <Application id="app">
+  <Layout id="app">
 		Your application content goes here.
-	</Application>
+	</Layout>
 ```

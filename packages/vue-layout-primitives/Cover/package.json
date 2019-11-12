@@ -1,12 +1,12 @@
 {
   "name": "vue-layout-primitives.cover",
-  "description": "A component that says \"HelloB\" with green text.",
+  "description": "A component that centers content in the middle of a height-specified element with optional header and footer.",
   "author": {
     "name": "Phillip Curl",
     "email": "phillipcurl@gmail.com",
     "github": "phillipcurl"
   },
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
   "homepage": "https://www.npmjs.com/package/vue-layout-primitives.cover",
   "repository": {

@@ -1,6 +1,6 @@
 # vue-layout-primitives.center
 
-> A component that says "HelloB" with green text.
+> A centered component with a set max-width.
 
 ## Installation
 
@@ -52,5 +52,7 @@ components: { Center }
 
 ```html
 <!-- No props or content are necessary. -->
-<hello-b></hello-b>
+  <Center>
+		...
+	</Center>
 ```

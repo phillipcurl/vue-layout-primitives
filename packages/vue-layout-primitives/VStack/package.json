@@ -1,12 +1,12 @@
 {
   "name": "vue-layout-primitives.v-stack",
-  "description": "A component that says \"HelloB\" with green text.",
+  "description": "A component that aligns its children vertically with a specified gap between each successive child.",
   "author": {
     "name": "Phillip Curl",
     "email": "phillipcurl@gmail.com",
     "github": "phillipcurl"
   },
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
   "homepage": "https://www.npmjs.com/package/vue-layout-primitives.v-stack",
   "repository": {

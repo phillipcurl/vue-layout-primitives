@@ -1,12 +1,12 @@
 {
   "name": "vue-layout-primitives.frame",
-  "description": "A component that says \"HelloB\" with green text.",
+  "description": "A component renders its content in a fixed aspect ratio container.",
   "author": {
     "name": "Phillip Curl",
     "email": "phillipcurl@gmail.com",
     "github": "phillipcurl"
   },
-  "version": "0.0.6",
+  "version": "0.0.7",
   "license": "MIT",
   "homepage": "https://www.npmjs.com/package/vue-layout-primitives.frame",
   "repository": {

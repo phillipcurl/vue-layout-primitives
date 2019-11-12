@@ -1,6 +1,6 @@
 # vue-layout-primitives.box
 
-> The base Box component
+> The base Box component that can be used in a variety of ways to ensure consistent spacing.
 
 ## Installation
 

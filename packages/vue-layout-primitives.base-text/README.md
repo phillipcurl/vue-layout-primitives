@@ -1,6 +1,6 @@
 # vue-layout-primitives.base-text
 
-> The base text component
+> The base text component used to render standard body copy.
 
 ## Installation
 

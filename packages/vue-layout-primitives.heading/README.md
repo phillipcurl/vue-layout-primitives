@@ -1,6 +1,6 @@
 # vue-layout-primitives.heading
 
-> A component that says "HelloB" with green text.
+> Renders a basic heading with the optional ability to clip the height so that the heading sits at the top of its container.
 
 ## Installation
 
@@ -52,5 +52,5 @@ components: { Heading }
 
 ```html
 <!-- No props or content are necessary. -->
-<hello-b></hello-b>
+<Heading level="2">...</Heading>
 ```

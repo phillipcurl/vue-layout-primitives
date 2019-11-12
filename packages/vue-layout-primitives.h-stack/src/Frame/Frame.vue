@@ -60,11 +60,13 @@ export default {
 
 <meta>
 {
-  "description": "A component that says \"HelloB\" with green text."
+  "description": "A component renders its content in a fixed aspect ratio container."
 }
 </meta>
 
 <example>
   <!-- No props or content are necessary. -->
-  <hello-b></hello-b>
+  <Frame>
+		...
+	</Frame>
 </example>

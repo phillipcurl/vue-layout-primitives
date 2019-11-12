@@ -44,11 +44,13 @@ export default {
 
 <meta>
 {
-  "description": "A component that says \"HelloB\" with green text."
+  "description": "A component that aligns its children vertically with a specified gap between each successive child."
 }
 </meta>
 
 <example>
   <!-- No props or content are necessary. -->
-  <hello-b></hello-b>
+  <VStack>
+		...
+	</VStack>
 </example>
