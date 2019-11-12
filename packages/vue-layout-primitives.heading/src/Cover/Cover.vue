@@ -1,5 +1,8 @@
 <template>
-	<div class="cover" :style="`--cover-gap: var(--s${gap}); --cover-height: ${height};`">
+	<div
+class="cover"
+:style="`--cover-gap: var(--s${gap}); --cover-height: ${height};`"
+>
 		<slot name="header" />
 		<div class="centered">
 			<slot />

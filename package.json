@@ -11,6 +11,7 @@
 		"prepublishOnlyOld": "npm run lint && npm run test && node build-utils/build-lib.js",
 		"prepublishOnly": "node build-utils/build-lib.js",
 		"publish-lib": "lerna publish",
+		"version-lib": "lerna version minor",
 		"storybook": "start-storybook -p 6006",
 		"build-storybook": "build-storybook"
 	},
@@ -260,6 +261,5 @@
 				}
 			]
 		}
-	},
-	"version": "0.0.3"
+	}
 }
